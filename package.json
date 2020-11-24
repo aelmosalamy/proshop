@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "MERN eCommerce app",
   "main": "server.js",
+  "type": "module",
   "scripts": {
     "start": "npm run dev",
     "server": "nodemon backend/server",
@@ -12,8 +13,10 @@
   "author": "Adham Elmosalamy",
   "license": "MIT",
   "dependencies": {
+    "colors": "^1.4.0",
     "dotenv": "^8.2.0",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mongoose": "^5.10.15"
   },
   "devDependencies": {
     "concurrently": "^5.3.0",
