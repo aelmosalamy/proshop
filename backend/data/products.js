@@ -74,9 +74,9 @@ const products = [
     category: 'Electronics',
     price: 29.99,
     countInStock: 0,
-    rating: 4,
+    rating: 1.5,
     numReviews: 12,
   },
 ]
 
-export default products
+module.exports = products
