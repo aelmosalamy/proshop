@@ -7,7 +7,7 @@ const router = express.Router()
 // @desc   Fetch all products
 // @route  GET /api/products
 // @access Public
-router.get('/', (req, res) => {
+router.get('/', (req, res, next) => {
   Product.find({})
     .then(products => {
       res.json(products)
