@@ -13,7 +13,7 @@ const ProductScreen = () => {
   const history = useHistory()
 
   // Component state hooks
-  const [qty, setQty] = useState(0)
+  const [qty, setQty] = useState(1)
 
   // Redux hooks
   const dispatch = useDispatch()
