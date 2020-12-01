@@ -1,5 +1,4 @@
 import express from 'express'
-import Product from '../models/productModel.js'
 import {
   getProducts,
   getProductById,
@@ -7,6 +6,7 @@ import {
 
 const router = express.Router()
 
+// Routes
 router.route('/').get(getProducts)
 router.route('/:id').get(getProductById)
 
