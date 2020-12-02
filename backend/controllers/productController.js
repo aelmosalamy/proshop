@@ -1,4 +1,4 @@
-import asyncHandler from 'express-async-handler'
+import asyncHandler from '../middleware/asyncHandlerMiddleware.js'
 import Product from '../models/productModel.js'
 
 // @desc   Fetch all products
